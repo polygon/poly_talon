@@ -103,3 +103,7 @@ macro wrap {user.code_macros}:
 block dock comment: user.code_comment_documentation_block()
 inner dock comment: user.code_comment_documentation_inner()
 inner block dock comment: user.code_comment_documentation_block_inner()
+
+## As
+as {user.code_type}:
+  insert(" as {code_type}")
